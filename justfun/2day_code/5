@@ -1,0 +1,4 @@
+ls = ['asbg', 'dez','hayer', 'abg']
+
+for i in range(len(ls)):
+    print(ls.count(ls[i]))

@@ -1,0 +1,6 @@
+name = input()
+number = int(input())
+print('Группа №', str(number // 100) + '.')
+print(str(number % 10) + '. ', name + '.')
+print('Шкафчик: ',str(number) + '.')
+print('Кроватка: ',str((number // 10) % 10) + '.')
